@@ -7,20 +7,20 @@ var searchValued : Int = 0
 
 def add(element:Int):IyteImmutableSet={
 if(!contains(element)){
-if(initalindex<= initalSize ){
-arrayBuffer (initalindex)=element
+if(newinitalindex<= newinitalSize ){
+arrayBuffer (newinitalindex)=element
 newinitalindex += 1
 
 }
 else{
-arrayBuffer (initalindex )=element
+arrayBuffer (newinitalindex )=element
 newinitalindex += 1
 
 }
 }
 
 
-new IyteImmutableSet(arrayBuffer,initalSize,initalindex)
+new IyteImmutableSet(arrayBuffer,newinitalSize,newinitalindex)
 }
 def contains(sValue:Int):Boolean = {
 // val flag=0
